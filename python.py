@@ -1,13 +1,11 @@
 def add_numbers(a, b):
-    """
-    This function takes two numbers as input and returns their sum.
-    """
     return a + b
 
+def subtract_numbers(a, b):
+    return a - b
 
-# Example usage
 if __name__ == "__main__":
-    num1 = 5
-    num2 = 10
-    result = add_numbers(num1, num2)
-    print("The sum is:", result)
+    num1 = 10
+    num2 = 5
+    print("Addition:", add_numbers(num1, num2))
+    print("Subtraction:", subtract_numbers(num1, num2))
